@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+ --firstColor:white;
+ --seconCcolor:#002853;
+ --thirdColor:#69b0df;
+ --fourthColor:#0056b1;
+ --fifthColor:#f0f0f0;
+}
+
+header{
+    background-color: var(--seconCcolor);
+    padding-top: 20px;
+
+}
+
+header img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+
+header h3{
+    color: var(--firstColor);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+header p{
+    color: var(--firstColor);
+    font-size: 18x;
+    font-weight: 400;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--thirdColor);
+    padding-left: 5px;
+}
+
+header a:hover{
+    text-decoration:solid;
+    color: #598fb3;
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 220px;
+}
+
+section h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+section p{
+    font-size: 20x;
+}
+
+section span #require{
+    color: red;
+    padding-right: 2px;
+}
+
+section .name{
+    background-color: var( --fifthColor);
+    border: none;
+    border-radius: 12px;
+    width: 30%;
+}
+
+section button{
+    width: 15%;
+    background-color: transparent;
+    padding: 15px 40px!important;
+    margin-right: 3px;
+    border: 1px  solid rgb(224, 216, 216);
+    color: #598fb3;
+    border-radius: 10px;
+}
+
+section button:hover{
+    color: var(--firstColor);
+    background-color:#598fb3 ;
+}
+.next{
+    margin-top: 30px;
+}
+
+footer{
+    background-color: var(--fifthColor);
+    padding-bottom: 10px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding-top: 25px;
+}
+
+@media screen and (max-width:991px){
+    section button{
+        width: 80%;
+    }
+    section .name{
+        width: 80%;
+    }
+}

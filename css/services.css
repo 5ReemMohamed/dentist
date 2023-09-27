@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+ --firstColor:white;
+ --nav-color:#143345;
+ --button-color:rgb(231, 202, 113);
+}
+
+.navbar{
+    padding-top: 25px!important;
+    padding-bottom: 25px!important;
+    
+
+}
+.navbg{
+    background-color: var(--firstColor);
+}
+.navbar-brand img{
+    width:300px;
+    padding-left: 15px;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: var(--nav-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    opacity: .7;
+}
+.nav-item{
+    padding-right: 40px;
+}
+
+.btn{
+    background-color: var(--button-color)!important;
+    border: 1px solid var(--button-color);
+    border-radius: 0!important;
+    font-size: 15px;
+    font-weight: 500;
+    padding:15px 20px;
+}
