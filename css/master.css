@@ -663,7 +663,7 @@ footer .pre{
         padding-bottom: 35px;
     }
     .section1{
-        height: 130vh;
+        height: 145vh;
         padding: 40px;  
     }
 
@@ -720,7 +720,7 @@ footer .pre{
     }
     footer .pre{
         padding-top: 30px;
-        font-size: 13px;
+        font-size: 11px;
     
     }   
     #aboutsection2 img{
@@ -794,6 +794,12 @@ footer .pre{
         padding-top: 50px;
         padding-bottom: 30px;
     }
-    
+    #Dentistry{
+    height: 30vh;
+}
+    .section7{
+
+    height: 60vh;
+}
   
 }
